@@ -1,0 +1,1273 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+body {
+  font-family: proxima-nova, Lato, sans-serif;
+}
+.container__1 {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  background-image: url(Gym-Background.jpg);
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  background-size: cover;
+  margin-right: 0px;
+  background-color: #eee;
+}
+.nav {
+  transition: 0.3s all ease;
+  position: absolute;
+  width: 260px;
+  left: -260px;
+  height: 100%;
+  background: #000000;
+  z-index: 9999;
+}
+.open {
+  left: 0px;
+}
+.menu {
+  list-style-type: none;
+}
+.menu__item {
+  font-size: 1.4rem;
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid #333;
+  padding: 1.2rem;
+  text-transform: uppercase;
+  transition: 0.3s all ease;
+}
+.menu__item:hover {
+  background: #111;
+  cursor: pointer;
+}
+/**** hamburger icon ****/
+.hamburger {
+  position: absolute;
+  top: 10px;
+  right: -70px;
+}
+.hamburger:hover {
+  cursor: pointer;
+}
+.hamburger span {
+  display: block;
+  background: rgb(255, 255, 255);
+  margin: 8px 0;
+  height: 8px;
+  width: 50px;
+  border-radius: 2px;
+  position: relative;
+  transition: 0.3s;
+}
+.change.first-bar {
+  top: 13px;
+  transform: rotate(45deg);
+  background: #f91616;
+}
+.change.second-bar {
+  opacity: 0;
+}
+.change.third-bar {
+  bottom: 18px;
+  transform: rotate(-45deg);
+  background: #f91616;
+}
+
+/********** Main Content *********/
+
+.content {
+  padding: rem;
+  transition: 0.3s all ease;
+}
+.shift {
+  margin-left: 100px;
+}
+.content__heading {
+  text-align: center;
+  padding: 2rem;
+}
+.content__details {
+  padding: 2rem;
+  letter-spacing: 1px;
+}
+.content__image {
+  padding: none;
+  width: 100%;
+  height: auto;
+}
+
+.Pump__Logo {
+  display: block;
+  position: relative;
+  width: auto;
+  text-align: center;
+  margin: auto;
+  background-color: transparent;
+  padding: 30px 0px;
+  
+}
+
+
+.Sign_Up_Button {
+  border: none;
+  border-radius: 2px;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  text-align: center;
+  display: block;
+  position: relative;
+  margin: 1rem auto 2rem;
+  background-color:  rgb(99, 183, 252);
+  color: #000000;
+}
+
+button:hover {
+  background-color: #eee;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.Ahref_header_2items {
+  color: #000000;
+  background-color: rgb(99, 183, 252);
+  text-decoration: none;
+}
+
+.header__container {
+  display: block;
+  color: #000000;
+  text-align: center;
+  background-color: #eee;
+
+}
+
+.ul_header_2items {
+  margin: auto;
+  background-color: rgb(99, 183, 252);
+  padding: 10px 0px;
+}
+
+.ul_header_2items li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 12px;
+  border: none;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(99, 183, 252);
+}
+
+.container__2___Section_1 img {
+  max-width: 100%;
+  margin: 0;
+  padding: 36px 36px 0px 36px;
+  background-color: #eee;
+  height: auto;
+  border: none;
+  margin-bottom: -5px;
+  width: 100%;
+}
+
+.container__3___Section_1  {
+  margin: 0px;
+  padding: 0px 36px 36px 36px;
+  background-color: #eee;
+  border: none;
+  text-align: center;
+  width: 100%;
+  vertical-align: baseline;
+}
+
+.container__4___Section_1 {
+  padding: 50px 20px 0px 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.container__5___Section_1 {
+  padding: 35px 36px 50px 36px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  vertical-align: baseline;
+  line-height: 28px;
+  letter-spacing: .5px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #676767;
+}
+
+.FIND_OUT_MORE__Button  {
+  background-color:  rgb(255, 255, 255);
+ 
+}
+
+.FIND_OUT_MORE__Button button {
+  padding: 13px 22px;
+  background-color:  rgb(99, 183, 252);
+  color: #000000;
+  border: none;
+  border-radius: 2px;
+  font-weight: bolder;
+}
+
+.FIND_OUT_MORE__Button button:hover {
+  background-color: #eee;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.Div_Spc {
+  padding: 1px 1px;
+  background-color: transparent;
+  width: 100%;
+  height: 1%;
+  margin: 0;
+  display: inline-block;
+  outline: tomato 1px;
+ 
+}
+
+.container__1___Section_2 img {
+  width: 100%;
+  margin: 0;
+  padding: 36px 36px 36px 36px;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  border: none;
+}
+
+.container__2___Section_2 {
+  margin: 0px;
+  padding: 0px 36px 36px 36px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  text-align: center;
+  width: 100%;
+  vertical-align: baseline;
+}
+
+.container__3___Section_2 {
+  padding: 14px 25px 0px 25px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+.container__4___Section_2 {
+  padding: 35px 25px 50px 25px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  vertical-align: baseline;
+  line-height: 28px;
+  letter-spacing: .5px;
+  font-size: 16px;
+  font-weight: 400;
+  webkit-font-smoothing: subpixel-antialiased;
+  color: #676767;
+}
+
+
+.container__1___Section_3 img {
+  width: 100%;
+  margin: 0;
+  padding: 36px 36px 36px 36px;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  border: none;
+}
+
+.container__2___Section_3 {
+  margin: 0px;
+  padding: 0px 36px 108px 36px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  text-align: center;
+  width: 100%;
+  vertical-align: baseline;
+}
+
+.container__3___Section_3 {
+  padding: 14px 25px 0px 25px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+.container__4___Section_3 {
+  padding: 35px 25px 77px 25px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  line-height: 28px;
+  letter-spacing: .5px;
+  font-size: 16px;
+  font-weight: 400;
+  webkit-font-smoothing: subpixel-antialiased;
+  color: #676767;
+  display: block;
+}
+
+.container__1___Section_4 {
+  width: 100%;
+  background-image: url(multiplepeopleworkingout_pumpfitness.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 95%;
+  position: relative;
+  display: block;
+}
+
+.container__2___Section_4  {
+  margin-left: 6.5%;
+  margin-right: 6.5%;
+  background-color: none;
+  text-align: center;
+  display: block;
+  position: relative;
+  padding-top: 20%;
+  margin-bottom: 0%;
+}
+
+.container__3___Section_4  {
+  padding: 22px 25px 15px 25px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  margin-top: auto;
+  display: block;
+  position: relative;
+}
+
+.img_div_1 img {
+  
+  max-height: 100%;
+  max-width: 100%;
+  background-color: rgb(255, 255, 255);
+  width: auto;
+  padding: 25px 25px 0px 25px;
+  vertical-align: baseline;
+  display: block;
+  position: relative;
+  margin: none;
+  height: auto;
+}
+
+
+@media screen and (max-width: 8000px) {
+
+  .Footer_Container1 {
+    display: flex;
+    flex-direction: row wrap ;
+    background-color: #1C1C1C;
+    margin: 0 ;
+    justify-content: space-around;
+    align-content: center;
+    padding: 0;
+  }
+  
+  .Footer_Container_2 {
+    margin: 0% ;
+  }
+  
+  .Footer__Section  {
+   display: flex;
+   flex-direction: row wrap ;
+   margin-right: 10%;
+  }
+  
+  .Footer__h3  {
+    padding-bottom: 30px;
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+    margin-right: 15%;
+  }
+  
+  .Footer__p p {
+    color: #777777;
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 14px;
+    
+  }
+}
+
+
+@media screen and (min-width: 720px) {
+
+  .container__1___Section_4 {
+    width: 100%;
+    background-image: url(multiplepeopleworkingout_pumpfitness.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 105%;
+    position: relative;
+    display: block;
+  }
+
+  .Spacer_Divider_Success_Stories {
+    padding: 1px;
+    display: block;
+  }
+
+  .container__2___Section_4  {
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    text-align: center;
+    display: block;
+    
+    margin-top: 10% ;
+   
+    background-color: rgb(255, 255, 255);
+    padding: 0%;
+  }  
+
+  .container__3___Section_4  {
+    padding: 22px 25px 15px 25px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: auto;
+    display: block;
+    position: relative;
+  }
+
+  .img_div_1 img {
+  
+    max-height: 100%;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    padding: 25px 25px 0px 25px;
+    vertical-align: baseline;
+    display: block;
+    position: relative;
+    margin: none;
+    height: auto;
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+  .ul_header_2items li{
+    padding: 12px 12px;
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+  .container__2___Section_1 img {
+    max-width: 100%;
+    margin: 0;
+    background-color: #eee;
+    height: auto;
+    border: none;
+    margin-bottom: -5px;
+    width: auto;
+    height: auto;
+    padding: 50px 50px 50px 50px;
+  }
+
+  .oliptical_lady_pumpfitness_wrapper {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+  }
+
+  .container__3___Section_1  {
+    
+    background-color: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    vertical-align: baseline;
+    display: block;
+    justify-content: center;
+    height: auto;
+    float: right;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .container__4___Section_1 {
+    padding: 30px 20px 0px 20px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .container__5___Section_1 {
+    padding: 30px 36px 1px 36px;
+  }
+
+
+
+  .container__1___Section_2 img {
+    max-width: 100%;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    border: none;
+    margin-bottom: 0px;
+    width: auto;
+    height: auto;
+    padding: 50px 50px 50px 50px;
+  }
+
+  .kettlebell_ladys_pumpfitness_wrapper {
+    display: inline block;
+    width: 50%;
+    height: 50%;
+    float: right;
+  }
+
+  .container__2___Section_2 {
+    padding: 36px 36px 21px 36px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    vertical-align: baseline;
+    display: block;
+    justify-content: center;
+    height: auto;
+    float: left;
+    height:auto;
+    
+  }
+
+  .container__3___Section_2 {
+    padding: 40px 20px 0px 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  .container__3___Section_3 {
+    padding: 40px 20px 0px 20px;
+  }
+
+  .container__4___Section_2 {
+    text-align: center;
+  }
+
+
+
+  .container__1___Section_3 img {
+    max-width: 100%;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    border: none;
+    margin-bottom: 0px;
+    width: auto;
+    height: auto;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+  }
+
+  .crossfitrope_personaltrainer_pumpfitness_wrapper {
+    display: inline block;
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+
+  .container__2___Section_3 {
+    float: right; 
+    width: 50%;
+    height: 50%;
+    display: inline block;
+    text-align: center;
+    float: right;
+    border: none;
+    text-align: center;
+    padding: 76px 36px 36px 36px;
+    background-color: rgb(255, 255, 255);
+    vertical-align: baseline;
+  
+  }
+
+  .container__3___Section_3 {
+    text-align: center;
+  }
+
+  .container__4___Section_3 {
+    text-align: center;
+  }
+
+
+  .container__1___Section_4 {
+    width: 100%;
+    background-image: url(multiplepeopleworkingout_pumpfitness.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120%;
+   
+    display: inline-block;
+  }
+
+  .Spacer_Divider_Success_Stories {
+    padding: 1px;
+    display: block;
+  
+  }
+
+  .container__2___Section_4  {
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    text-align: center;
+    display: block;
+    
+    margin-top: 10% ;
+   
+    background-color: rgb(255, 255, 255);
+    padding: 0%;
+  }  
+
+  .container__3___Section_4  {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 22px 25px 15px 25px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: auto;
+    display: block;
+    position: relative;
+
+  }
+
+
+  
+  .img_div_1 img {
+  
+    max-height: 100%;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    padding: 25px 25px 0px 25px;
+    vertical-align: baseline;
+    display: block;
+    position: relative;
+    margin: none;
+    height: auto;
+  }
+
+  
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .Sign_Up_Button {
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    margin: 2rem auto 2.5rem;
+  }
+
+  .container__4___Section_1 {
+    padding: 100px 20px 0px 20px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .FIND_OUT_MORE__Button button {
+    margin-top: 15px;
+    padding: 23px 32px;
+    font-size: 16px;
+  }
+
+  .container__2___Section_2 {
+    padding: 106px 36px 81px 36px;
+    font-size: 18px;
+  }
+
+  
+
+  .container__2___Section_3 {
+    padding: 126px 36px 111px 36px;
+    font-size: 18px;
+  }
+
+
+  .container__1___Section_4 {
+    width: 100%;
+    background-image: url(multiplepeopleworkingout_pumpfitness.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130%;
+    
+    display: inline block;
+  }
+
+  .Spacer_Divider_Success_Stories {
+    padding: 1px;
+    display: block;
+  }
+
+  .container__2___Section_4  {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    text-align: center;
+    display: block;
+    
+    margin-top: 10% ;
+   
+    background-color: rgb(255, 255, 255);
+    padding: 0%;
+  }  
+
+  .container__3___Section_4  {
+    padding: 22px 25px 15px 25px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: auto;
+    display: block;
+    position: relative;
+  }
+
+  #Real_People_Header {
+    font-size: 27px;
+  }
+  
+
+  .img_div_1 img {
+  
+    max-height: 100%;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    padding: 25px 25px 0px 25px;
+    vertical-align: baseline;
+    display: block;
+    position: relative;
+    margin: none;
+    height: auto;
+  }
+
+  
+}
+
+@media screen and (min-width: 1400px) {
+
+  .container__4___Section_1 {
+    padding: 160px 20px 0px 20px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+
+  .container__5___Section_1 p {
+    font-size: 20px;
+  }
+
+  .container__2___Section_2  {
+    padding: 156px 36px 131px 36px;
+    font-size: 20px;
+  }
+
+  .container__2___Section_2 p {
+    font-size: 20px;
+  }
+
+  .container__2___Section_3 {
+    padding: 166px 36px 131px 36px;
+    font-size: 20px;
+  }
+
+  .container__2___Section_3 p {
+    font-size: 20px;
+  }
+
+  .container__1___Section_4 {
+    width: 100%;
+    background-image: url(multiplepeopleworkingout_pumpfitness.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 140%;
+    
+    display: inline block;
+  }
+
+  .Spacer_Divider_Success_Stories {
+    padding: 1px;
+    display: block;
+  }
+
+  .container__2___Section_4  {
+    margin-left: 16%;
+    margin-right: 16%;
+    text-align: center;
+    display: block;
+    
+    margin-top: 10% ;
+   
+    background-color: rgb(255, 255, 255);
+    padding: 0%;
+  }  
+
+  .container__3___Section_4  {
+    padding: 22px 25px 15px 25px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: auto;
+    display: block;
+    position: relative;
+  }
+
+  .container__4___Section_4 p {
+    font-size: 20px;
+  }
+
+  #Real_People_Header {
+    font-size: 30px;
+  }
+
+  .img_div_1 img {
+  
+    max-height: 100%;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    padding: 25px 25px 0px 25px;
+    vertical-align: baseline;
+    display: block;
+    position: relative;
+    margin: none;
+    height: auto;
+  }
+
+}
+
+@media screen and (min-width: 1540px) {
+
+  .container__4___Section_1 {
+    padding: 225px 20px 0px 20px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .container__1___Section_4 {
+    width: 100%;
+    background-image: url(multiplepeopleworkingout_pumpfitness.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 140%;
+    display: inline block;
+  }
+
+  .Spacer_Divider_Success_Stories {
+    padding: 1px;
+    display: block;
+  }
+
+  .container__2___Section_3 {
+    padding: 200px 36px 111px 36px;
+  }
+
+  .container__2___Section_4  {
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: center;
+    display: block;
+    
+    margin-top: 10% ;
+   
+    background-color: rgb(255, 255, 255);
+    padding: 0%;
+  }  
+
+  .container__3___Section_4  {
+    padding: 22px 25px 15px 25px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: auto;
+    display: block;
+    position: relative;
+  }
+
+  .img_div_1 img {
+  
+    max-height: 100%;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    padding: 25px 25px 0px 25px;
+    vertical-align: baseline;
+    display: block;
+    position: relative;
+    margin: none;
+    height: auto;
+  }
+
+}
+
+@media screen and (min-width: 1750px) {
+
+  .container__1___Section_4 {
+    width: 100%;
+    background-image: url(multiplepeopleworkingout_pumpfitness.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150%;
+    display: inline block;
+  }
+
+  .container__4___Section_1 {
+    padding: 265px 20px 0px 20px;
+  }
+
+  .Spacer_Divider_Success_Stories {
+    padding: 1px;
+    display: block;
+  }
+
+  .container__2___Section_2  {
+    padding: 216px 36px 131px 36px;
+  
+  }
+
+  .container__2___Section_3 {
+    padding: 260px 36px 111px 36px;
+  }
+
+  .container__2___Section_4  {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    display: block;
+    
+    margin-top: 10% ;
+   
+    background-color: rgb(255, 255, 255);
+    padding: 0%;
+  }  
+
+  .container__3___Section_4  {
+    padding: 22px 25px 15px 25px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: auto;
+    display: block;
+    position: relative;
+  }
+
+  .img_div_1 img {
+  
+    max-height: 100%;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    padding: 25px 25px 0px 25px;
+    vertical-align: baseline;
+    display: block;
+    position: relative;
+    margin: none;
+    height: auto;
+  }
+
+}
+
+
+.container__4___Section_4 {
+  padding: 22px 25px 38px 25px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  line-height: 28px;
+  letter-spacing: .5px;
+  font-size: 16px;
+  font-weight: 400;
+  webkit-font-smoothing: subpixel-antialiased;
+  color: #676767;
+  position: relative;
+  display: block;
+}
+
+#Real_People_Header {
+  padding: 34px 0px 0px 0px;
+  text-align: left;
+  display: block;
+  margin: none;
+}
+
+.Blue__Divider {
+  background-color: rgb(99, 183, 252);
+  padding: 10px;
+  
+  color: transparent;
+  display: block;
+  
+  margin-top: auto;
+  border: none;
+}
+
+.Spacer_DividerFooter {
+  display: block;
+  padding: 60px;
+  margin: 0% 10%;
+  background-color: #1C1C1C;
+  margin: 0;
+}
+
+.Spacer_Divider_2 {
+  display: block;
+  padding: 50px;
+  background-color: #1C1C1C;
+  margin: 0% 10%;
+  border-bottom: solid #C8C8C8;
+  border-width: 1px;
+  
+}
+
+.Footer_Container1 {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #1C1C1C;
+  margin-left: 12%;
+  justify-content:  start;
+  padding: 0;
+  justify-items: start;
+  
+}
+
+.Footer_Container_2 {
+  margin: 0% 10%;
+}
+
+.Footer__Section {
+ display: flex block;
+ flex-flow: row wrap;
+}
+
+.Footer__h3  {
+  padding-bottom: 30px;
+  padding-top: 40px;
+  color: rgb(255, 255, 255);
+  display: flex;
+}
+
+.Footer__p p {
+  color: #777777;
+  font-weight: 600;
+  line-height: 30px;
+  font-size: 14px;
+  display: flex;
+}
+
+.Spacer_Divider_3 {
+  padding: 10px;
+}
+
+
+.Icons_Container {
+  margin: 0% 10%;
+}
+
+#Instagram-Icon {
+  width: 7%;
+}
+
+#Facebook-Icon {
+  width: 8%;
+  margin-right: 6%;
+}
+
+footer {
+  background-color: #1C1C1C;
+}
+
+h2 {
+  font-size: 28.5;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 17px;
+  padding-bottom: 27px;
+}
+
+
+/* Modal CSS */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.714);
+  padding-top: 0px;
+}
+.modal__content {
+  background: #ffffff;
+  width: 100%;
+  max-width: 640px;
+  margin: 1.5rem auto;
+  border-radius: 0px;
+  padding: 3rem 2rem;
+  position: relative;
+  animation: 0.3s slideDown;
+}
+/*** custom animation ***/
+@keyframes slideDown {
+  from {
+    top: -100px;
+    opacity: 0
+  }
+  to {
+    top: 0;
+    opacity: 1
+  }
+}
+.open_modal {
+  display: block;
+}
+
+.modal__title {
+  text-align: left;
+  font-family: pacifico, sans-serif;
+  color: rgb(0, 0, 0);
+}
+.close {
+  position: absolute;
+  color: #333;
+  top: 7px;
+  right: 15px;
+  font-size: 1.5rem;
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+.close:hover {
+  cursor: pointer;
+  color: #0000007e;
+}
+.modal__body {
+  padding-top: 1rem;
+  text-align: left;
+  font-family: Lato, sans-serif;
+  color: #2b2b2b;
+  line-height: 2rem;
+}
+
+
+/*** form styles ***/
+.form {
+  margin-top: .2rem;
+}
+
+.First__Name, .Last__Name, .mail, .phone {
+  color: #000000;
+  width: 100%;
+  display: block;
+  border: 1.5px solid #e2e2e2;
+  border-radius: 2px;
+  outline: none;
+  font-size: 1.1rem;
+  padding: 1.2rem;
+  margin: 0px, 0px, 10px, 0px;
+  background: transparent;
+}
+
+.form__submit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  background: rgb(99, 183, 252);
+  font-size: 1.4rem;
+  color: #000000;
+  padding: 1rem 1.2rem;
+  font-weight: bold;
+  border: 0;
+  border-radius: 2px;
+  outline: 0;
+  width: 100%;
+}
+
+.form__submit:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  
+}
+
+::placeholder {
+  color: #aaaaaa;
+  font-family: proxima-nova, Lato, sans-serif;
+}
+
+.form__spacer {
+  padding: 6px;
+}
+
+
+/*** Form JS Validator Styles ***/
+
+input[type=email]{
+  -webkit-appearance: none;
+  appearance: none;
+
+  width: 100%;
+  border: 1.5px solid #e2e2e2;
+
+  font-family: inherit;
+  font-size: 1.1rem;
+
+  box-sizing: border-box;
+}
+
+
+
+/* This is our style for the invalid fields */
+input:invalid{
+  border-color: rgb(214, 0, 28);
+  
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(214,0,28,.3)!important;
+}
+
+input:focus:invalid {
+  outline: none;
+  
+}
+
+/* This is the style of our error messages */
+.error {
+  width: auto;
+  margin: 0rem 0rem 1rem 0rem;
+  font-size: .95rem;
+  line-height: 1.5rem;
+  color: rgb(214, 0, 28);
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+  font-weight: 800;
+}
+
+.error.active input {
+  padding: 0.3em;
+}
+
+span {
+  padding: 0;
+  margin: 0;
+}
